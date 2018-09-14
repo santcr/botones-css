@@ -1,0 +1,237 @@
+body{
+    font-family: roboto;
+    /*font-weight: bold;*/
+}
+
+div{
+    height: 77px;
+    display: flex;
+    align-items: center;
+    padding-left: 11px;
+}
+.fondoBlanco{
+    background-color: white;
+}
+.fondoNegro{
+    background-color: black;
+}
+.fondoGris{
+    background-color: #333;
+}
+
+input[type=button], a, input[type=text]{
+    transition: all 0.06s ease 0s;
+}
+
+.botonGris{
+    padding: 11px 77px;
+    margin: 11px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    background-color: #EEE;
+    color: #333;
+    box-shadow: 
+        0 5px #CCC, 
+        0px 7px 11px 0px #CCC;
+}
+.botonGris:active {
+    box-shadow: 0 2px #CCC, 0px 3px 7px 0px #CCC;
+    transform: translateY(5px);
+}
+
+.botonGrisOscuro{
+    padding: 11px 77px;
+    margin: 11px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    background-color: #AAA;
+    color: #FFF;
+    box-shadow: 
+        0 5px #777, 
+        0px 7px 11px 0px #222;
+}
+.botonGrisOscuro:active {
+    box-shadow: 0 2px #555, 0px 3px 7px 0px #222;
+    transform: translateY(5px);
+}
+
+.botonRojo{
+    padding: 11px 77px;
+    margin: 11px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    background-color: #b31919;
+    color: #EEE;
+    box-shadow: 
+        0 5px #840e0e, 
+        0px 6px 1px 0px #111,
+        0px 7px 22px 0px #111;
+}
+.botonRojo:active {
+    box-shadow: 
+        0 2px #840e0e, 
+        0px 3px 1px 0px #111,
+        0px 3px 11px 0px #111;
+    transform: translateY(5px);
+}
+
+.botonRojo2{
+    padding: 11px 77px;
+    margin: 11px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    background-color: #b31919;
+    color: #DDD;
+    box-shadow: 
+        0 5px #840e0e, 
+        inset 0 3px 3px -3px #DDD, 
+        inset 0 -2px 3px -3px black, 
+        0px 6px 1px 0px #111,
+        0px 7px 22px 0px #111;
+}
+.botonRojo2:active {
+    box-shadow: 
+        0 2px #840e0e, 
+        inset 0 3px 3px -3px #DDD, 
+        inset 0 -2px 3px -3px black, 
+        0px 3px 1px 0px #111,
+        0px 3px 11px 0px #111;
+    transform: translateY(5px);
+}
+
+.botonGlow{
+    padding: 11px 77px;
+    margin: 22px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    background-color: #EEE;
+    color: white;
+    text-shadow: 0 0 22px #FFF, 0 0 33px #FFF;
+    box-shadow: 
+        inset 0px 0px 11px 3px #FFF,
+        0px 0px 11px 5px #FFF,
+        inset 0px 0px 33px 11px #888;
+}
+.botonGlow:active{
+    background-color: #FFF;
+    box-shadow: 
+        inset 0px 0px 11px 3px #FFF,
+        0px 0px 11px 5px #FFF,
+        inset 0px 0px 33px 11px #EEE,
+        0px 0px 22px 11px #FFF;
+}
+
+.botonGlow2{
+    padding: 11px 77px;
+    margin: 22px;
+    outline: none;
+    background-color: #000;
+    color: white;
+    border-radius: 1px;
+    border: solid white 1px;
+    box-shadow: 
+        0px 0px 11px 0px #FFF,
+        inset 0px 0px 11px 0px #FFF;
+}
+.botonGlow2:active{
+    box-shadow: 
+        0px 0px 15px 5px #FFF,
+        inset 0px 0px 15px 5px #FFF;
+    text-shadow: 
+        0 0 15px #FFF, 
+        0 0 15px #FFF,
+        0 0 15px #FFF,
+        0 0 15px #FFF, 
+        0 0 15px #FFF,
+        0 0 15px #FFF;
+    transform: translateY(2px);
+}
+
+.botonSimbolo{
+    font-size: 50px;
+    font-weight: bold;
+    padding: 11px;
+    color: #b31919;
+    cursor: default;
+    user-select: none;
+    text-shadow: 
+        0 5px  #840e0e, 
+        0 4px  #840e0e, 
+        0 3px  #840e0e, 
+        0 2px  #840e0e, 
+        0 1px  #840e0e, 
+        0px 6px 1px #111,
+        0px 7px 22px #111;
+}
+.botonSimbolo:active{
+    text-shadow: 
+        0 2px  #840e0e,
+        0 1px  #840e0e,
+        0px 3px 1px #111,
+        0px 3px 11px #111;
+    transform: translateY(5px);
+}
+
+input[type=text]{
+    padding: 11px;
+    margin: 11px;
+    background-color: #b31919;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    color: #EEE;
+    transform: translateY(3px);
+    box-shadow: 
+        0 -3px #840e0e, 
+        0px 2px 5px 0px #111;
+        
+}
+input[type=text]:active{
+    box-shadow: 
+        /*0 -3px 5px #840e0e,*/ 
+        0px 2px 5px 0px #840e0e,
+        0px 0px 22px 5px #b31919;
+}
+input[type=text]:focus{
+    box-shadow: 
+        /*0 -3px 5px #840e0e,*/ 
+        0px 2px 5px 0px #840e0e,
+        0px 0px 22px 5px #b31919;
+}
+input[type=text]::-moz-selection { background: black; }
+input[type=text]::selection { background: black; }
+
+label{
+    color: #EEE;
+    transform: translateY(3px);
+}
+label::-moz-selection { 
+    background: white; 
+    color: #333;
+}
+label::selection { 
+    background: white; 
+    color: #333;
+}
+
+input[type=checkbox]{
+    padding: 11px;
+    margin: 11px;
+    background-color: #b31919;
+/*    border: none;
+    outline: none;*/
+    border-radius: 5px;
+    color: #EEE;
+    transform: translateY(4px);
+    height: 22px;
+    width: 22px;
+    box-shadow: 
+        /*0 -3px #840e0e,*/ 
+        0px 2px 5px 0px #111;
+    
+}
